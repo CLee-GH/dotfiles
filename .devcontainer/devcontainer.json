@@ -1,6 +1,6 @@
 {
     "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-24.04",
-    "name": "chrismlee42/dotfiles",
+    "name": "clee-gh/dotfiles",
     "postCreateCommand": "bash -e .devcontainer/postCreateCommand.sh",
     "customizations": {
         "vscode": {
