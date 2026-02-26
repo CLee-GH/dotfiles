@@ -14,7 +14,6 @@
           "background": "#1d2230",
           "foreground": "#a0a9cb",
           "invert_powerline": true,
-          // "leading_diamond": "\ue0b6",
           "powerline_symbol": "\ue0b2",
           "properties": {
             "time_format": "2006-01-02 \uf017 15:04:05"
@@ -25,7 +24,6 @@
         {
           "background": "#d3d7cf",
           "foreground": "#000000",
-          // "invert_powerline": true,
           "powerline_symbol": "\ue0b2",
           "style": "powerline",
           "type": "os"
@@ -80,7 +78,7 @@
             "fetch_upstream_icon": true
           },
           "style": "powerline",
-          "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \uf0c7 {{ .StashCount }}{{ end }} ",
+          "template": " {{ .UpstreamIcon }} {{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \uf0c7 {{ .StashCount }}{{ end }} ",
           "type": "git"
         }
       ],
