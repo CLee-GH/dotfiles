@@ -1,17 +1,10 @@
-[commit]
-    gpgsign = true
-
 [core]
-    sshCommand = ssh -i ~/.ssh/identities/chrismlee42_gmail_com.ed25519
-
-[gpg]
-    format = ssh
+    autocrlf = false
 
 [pull]
     rebase = true
 
 [user]
-    email = chrismlee42@gmail.com
+    email = christopher.lee3@sba.gov
     name = Chris Lee
-    signingKey = ~/.ssh/identities/chrismlee42_gmail_com.ed25519
     useConfigOnly = true
