@@ -22,7 +22,7 @@ Host gitlab.com
     IdentitiesOnly yes
 
 Host *
-    IdentityFile ~/.ssh/identities/chrismlee42_gmail_com.rsa
+    IdentityFile ~/.ssh/identities/christopher_lee3_sba_gov.rsa
     PreferredAuthentications publickey
 
 Host * !github.com !gitlab.com
